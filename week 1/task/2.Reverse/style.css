@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+legend.makan {
+  text-align:center;
+  color:#fe4e30;
+}
+
+
+.h1{
+alig-self:center;
+}
+container {
+  padding: 10px 10%;
+}
+
+.form-container {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 30px 10%;
+  border-radius: 5px;
+  background: white;
+  min-height: 75vh;
+}
+.custom-input {
+  height: 30px;
+  line-height: 30px;
+  width: 99.2%;
+  font-size: 18px;
+  border: 2px solid #f7b731;
+  border-radius: 5px;
+  margin-bottom: 5px;
+
+  }
+  .btn-primary {
+  background: #fe4e30;
+  height: 42px;
+  padding: 0 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background: #da2a0b;
+}

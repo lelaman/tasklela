@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Perulangan</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tugas..css">
+  </head>
+
+<body>
+ <h3 style="text-align: center;">Convert Temperature</h3>
+  <div class="container">
+     <form name="temperatur" class="form-container">
+           <label>Temperatur</label>
+           
+           <input type="number"  class="custom-input" id="temp"/><br/>
+           <input type="radio"   name="pilihan" value="fahrenheit">Convert to Fahrenheit<br/>
+           <input type="radio" name="pilihan" value="celcius">Convert to Celcius<br/> 
+           <input type="radio" name="pilihan" value="kelvin">convert to Kelvin <br/>
+           <input type="radio" name="pilihan" value="Reamur">convert to Reamur </br>
+         
+           
+           <label>Result: </label>
+           <input type="text" class="custom-input" id="resultfield"/><br/>
+           <input type="button"  class="btn-primary" value="Convert" onclick="convertSuhu()"/>
+           
+           </form>
+           <div>
+<script src="fungsi.js">
+
+
+</script>
+
+</body>
+</html>
