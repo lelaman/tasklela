@@ -1,0 +1,64 @@
+{{> navbar}}
+  <div class="container pt-5">
+    <form action="/editkabupaten" method="post" enctype="multipart/form-data">
+      <input type="hidden" name="id"  value="{{details.id}}" >
+         <input type="hidden" name="oldImage"  value="{{details.photo}}" >
+        <div class="row auth-register">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <input name="nama" type="text" placeholder="nama" value="{{details.nama}}"/>
+            </div>
+             <div class="row auth-register">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <input name="diresmikan" type="text" placeholder="diresmikan" value="{{details.diresmikan}}"/>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+         <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <input name="provinsi_id" type="text" placeholder="provinsi_id" value="{{details.provinsi_id}}"/>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+         
+        <div class="row auth-register">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="file-input-group">
+                    <label for="file">Cover_music<img src="/public/icon/attach.svg" alt=""></label>
+                    <input name="photo" type="file" id="file" onchange="handlechange()" hidden  value="{{music_music.photo}}">
+                </div>
+                <div id ="cover"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row auth-register">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-end">
+                <button type="submit" class="btn-register">Submit</button>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+         
+        <input type="hidden" id="url-thumnail" value="{{details.photo}}" >
+    </form>
+</div>
+<script>
+     
+       const previewElement= document.getElementById('cover');
+
+       const urlThumbnail = document.getElementById('url-thumnail').value;
+
+       previewElement.innerHTML = `<img src="${urlThumbnail}" style="width:250px;" class=" mt-3"/>`
+
+
+      function handlechange() {
+         
+         const value = URL.createObjectURL(event.target.files[0]);
+         previewElement.innerHTML = `<img src="${value}" style="width:250px;" class=" mt-3"/>`
+     }
+</script>
+
+
+{{> footer}}

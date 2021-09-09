@@ -1,0 +1,170 @@
+ .nav-item .btn-login{
+    color: white;
+    text-decoration: none;
+    border:2px solid #393939;
+    font-weight: bold;
+    font-size: 14px;
+    background-color:blue;
+}
+.nav-item .btn-register{
+    color: white;
+    text-decoration: none;
+    border:2px solid #393939;
+    font-weight: bold;
+    font-size: 14px;
+    background-color:blue;
+}
+.navbar-brand {
+    font-weight:bold !important;
+    font-size: 20px !important;
+    color:rgb(55, 0, 255) !important;
+
+}
+.main-thumnail {
+    width: 50%;
+    height: 100px;
+    justify-content: center;
+    left: 57px;
+    top:203px;
+    background: black;
+}
+.thumbnail-article-detail {
+  width:50%;
+  height:50%;
+  border:2px solid #393939;
+  justify-content: center;
+  background: #c4c4c4;
+}
+
+
+p.text-content {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify;
+
+  color: #2f2f2f;
+}
+
+.list-thumbnail {
+  width: 100%;
+  height: 213px;
+  left: 57px;
+  top: 515px;
+  background: black;
+}
+
+.list-text-title-content {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+.main-thumbnail {
+  width: 100%;
+  height: 250px;
+  left: 57px;
+  top: 2503px;
+  background: #c4c4c4;
+}
+
+.text-content {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    color: #959595;
+}
+
+.text-title-content-list {
+    font-size: 16px;
+    line-height: 21px;
+    color: #000;
+    
+}
+.list-content{
+    width: 100%;
+    height:213px;
+    left:57px;
+    top:515px;
+    background: #c4c4c4;
+}
+a{
+    color:#393939;
+    text-decoration:none !important ;
+}
+.thumbnail-article-detail {
+    height: 200px;
+    width:100%;
+    background:#393939;
+
+}
+.auth-register {
+    margin-bottom: 20px;
+  }
+  
+  .auth-register input {
+    width: 100%;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #bcbcbc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 10px;
+  }
+  
+  .input-register {
+    width: 460px;
+  }
+  
+  .auth-register .btn-register {
+    background-color: #393939;
+    border-radius: 1px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 60px;
+  }
+  .img-avatar {
+    width: 50px;
+  }
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+  
+  .dropdown-menu {
+    border: none;
+  }
+  
+  .dropdown-item img {
+    width: 20px;
+  }
+  form .article-content-input {
+    width: 50% !important;
+    background: rgba(210, 210, 210, 0.25) !important;
+    border: 2px solid #bcbcbc !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 200px;
+  }
+  
+  .file-input-group label {
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #bcbcbc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .file-input-group img {
+    width: 15px;
+  }
+  
+  .group-btn-article img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+
+  

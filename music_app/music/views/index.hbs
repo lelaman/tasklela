@@ -1,0 +1,37 @@
+ {{>header}}
+{{>navbar}}
+
+  
+ <div class='container mb-20'>
+    
+  <div class='row mt-5 mb-20'>
+    {{#each details}}
+    <div class='col-3'>
+      <a href="/Music/{{this.id}}">
+        <img src='{{this.photo}}' alt='' class='list-thumbnail' />
+        <div class='list-text-title-content'>
+          {{this.0.nama}}
+        </div>
+        
+        <div class='list-text-title-content'>
+          {{this.diresmikan}}
+        </div>
+         <div class='list-text-title-content'>
+          {{this.pulau}}
+        </div>
+      </a>
+
+    </div>
+  {{/each}}
+  </div>
+</div>
+
+
+
+
+
+  {{footer}}
+
+
+
+

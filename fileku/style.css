@@ -1,0 +1,38 @@
+.container-me{
+  margin: 25px 0;
+  text-align: center;
+}
+.container-me p{
+  line-height: 15px;
+  margin-top: 15px;
+}
+.content{
+  width: 90%;
+  padding: 30px;
+  margin: 50px auto;
+  width: 50%;
+  height: 60%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.content h2{
+  font-size: 22px;
+}
+.custom-input{
+  padding: 0 10px;
+  height: 42px;
+  line-height: 30px;
+  width: 100%;
+  font-size: 14px;
+  border: 2px solid #2870c2;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.custom-btn{
+  width: 100%;
+  background: #2870c2;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}

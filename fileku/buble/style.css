@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;1,100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.blue {
+  color:orange;
+}
+/* LEFT SIDE */
+.left-side {
+  padding: 40px 40px;
+  flex: 40%;
+}
+
+.left-side .header {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 34px;
+  overflow-y: hidden;
+  color:orange;
+}
+
+.left-side .label-input {
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 8px;
+  margin-top: 80px;
+}
+
+.left-side .input {
+  margin-top: 10px;
+  background: #f1f1f1;
+  border: 2px solid #d5d5d5;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.left-side .input:focus {
+  outline: 0;
+}
+
+.left-side .btn-submit {
+  background: orange;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+
+.left-side .btn-submit:hover {
+cursor:pointer;
+background:#0568e9;
+color: white;
+}
+
+/* RIGHT SIDE */
+div#show-number {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div#show-number p {
+  font-size: 36px;
+  margin-right: 16px;
+}
+
+.right-side {
+  background-image: url("./nod.jpg");
+  flex: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+
+.right-side .card {
+  background: #fefefe;
+  max-width: 750px;
+  width: 100%;
+  min-height: 500px;
+  padding: 0px 50px;
+  border-radius: 3px;
+  text-align:center;
+}
+
+.right-side .card h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
